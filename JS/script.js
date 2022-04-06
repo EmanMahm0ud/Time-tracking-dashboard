@@ -19,7 +19,6 @@ function retrieveDayData() {
     }
 
     for (let i = 0; i < dataJSON.length; i++) {
-        console.log(dataJSON[i].timeframes.daily.current)
         document.querySelector(`[title="${dataJSON[i].title}"] .current-time`).textContent = dataJSON[i].timeframes.daily.current + "hrs";
         document.querySelector(`[title="${dataJSON[i].title}"] .previous-time`).textContent = dataJSON[i].timeframes.daily.previous + "hrs";  
     }
@@ -35,7 +34,6 @@ function retrieveWeekData() {
     }
 
     for (let i = 0; i < dataJSON.length; i++) {
-        console.log(dataJSON[i].timeframes.daily.current)
         document.querySelector(`[title="${dataJSON[i].title}"] .current-time`).textContent = dataJSON[i].timeframes.weekly.current + "hrs";
         document.querySelector(`[title="${dataJSON[i].title}"] .previous-time`).textContent = dataJSON[i].timeframes.weekly.previous + "hrs";  
     }
@@ -51,7 +49,6 @@ function retrieveMonthData() {
     }
 
     for (let i = 0; i < dataJSON.length; i++) {
-        console.log(dataJSON[i].timeframes.daily.current)
         document.querySelector(`[title="${dataJSON[i].title}"] .current-time`).textContent = dataJSON[i].timeframes.monthly.current + "hrs";
         document.querySelector(`[title="${dataJSON[i].title}"] .previous-time`).textContent = dataJSON[i].timeframes.monthly.previous + "hrs";  
     }
