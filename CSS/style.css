@@ -63,16 +63,16 @@ p {
     background-color: hsl(246, 80%, 60%);
 }
 
-.main-card article {
+.main-card .article {
     padding: 30px;
 }
 
-.main-card article p {
+.main-card .article p {
     font-size: 1rem;
     margin-bottom: 15px;
 }
 
-.main-card article p:last-child {
+.main-card .article p:last-child {
     margin-bottom: 0;
 }
 
@@ -80,7 +80,7 @@ p {
     color: whitesmoke;
 }
 
-.main-card article p:hover {
+.main-card .article p:hover {
     cursor: pointer;
     color: whitesmoke;
 }
@@ -206,13 +206,13 @@ p {
         align-self: center;
     }
 
-    .main-card article {
+    .main-card .article {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
 
-    .main-card article p {
+    .main-card .article p {
         margin-bottom: 0;
     }
 }
