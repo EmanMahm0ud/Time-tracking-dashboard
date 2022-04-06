@@ -14,7 +14,7 @@ body {
 }
 
 main {
-    width: 70%;
+    width: 80%;
     color: whitesmoke;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
